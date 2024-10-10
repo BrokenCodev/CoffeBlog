@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coffee Blog Web">
+    <title>CoffeBlog</title>
+
+    <!-- 400px opensans y 700 PT sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- prefetch -->
+     <link rel="prefetch" href="about_us.html" as="documents">
+
+    <!-- preload -->
+     <link rel="preload" href="css/normalize.css" as="style">
+     <link rel="stylesheet" href="css/normalize.css">
+
+     <link rel="preload" href="css/styles.css" as="style">
+     <link rel="stylesheet" href="css/styles.css">
+     
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" crossorigin="crossorigin" as="font" >
+
+     
+
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="font">
+
+     <link rel="preload" href="img/blog1.jpg" as="image">
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- navigation -->
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Coffee<span class="logo__bold">Blog</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="about_us.html" class="navegacion__enlace">About us</a>
+                    <a href="courses.html" class="navegacion__enlace">Courses</a>
+                    <a href="" class="navegacion__enlace">Contact</a>
+    
+                </nav>
+            </div>
+        </div>
+        <!-- navigation end -->
+        </div>
+        <!-- header -->
+        <div class="header-texto">
+            <h2 class="no-margin">Coffee blog with tips and courses</h2>
+            <p class="no-margin">Learn from the experts with the best recipes and tips</p>
+        </div>
+        <!-- header end -->
+    </header>
+    <!-- end header -->
+    
+    <!-- contenido principal -->
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+
+            <h3 class="main-title">Our Blog</h3>
+            <article class="entrada">
+
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog1.webp" type="image/webp">
+                    </picture>
+                    <img src="img/blog1.jpg" alt="imagen blog" loading="lazy">
+                </div>
+                
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Types of coffee beans</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas labore sit nulla quis eum sed? Quia, ab voluptatem eveniet aut dolorum, a dolorem at asperiores eum exercitationem sit minima nihil!</p>
+                    <a href="entrada.html" class="boton boton-primario">Read article</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog2.webp" type="image/webp">
+                    </picture>
+                    <img src="img/blog2.jpg" alt="imagen blog" loading="lazy">
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">3 delecious coffee recipies</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas labore sit nulla quis eum sed? Quia, ab voluptatem eveniet aut dolorum, a dolorem at asperiores eum exercitationem sit minima nihil!</p>
+                    <a href="entrada.html" class="boton boton-primario">Read article</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <picture>
+                    <source loading="lazy" srcset="img/blog3.webp" type="image/webp">
+                </picture>
+                <div class="entrada__imagen">
+                    <img src="img/blog3.jpg" alt="imagen blog" loading="lazy">
+                </div>
+            
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Coffee benefits</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas labore sit nulla quis eum sed? Quia, ab voluptatem eveniet aut dolorum, a dolorem at asperiores eum exercitationem sit minima nihil!</p>
+                    <a href="entrada.html" class="boton boton-primario">Read article</a>
+                </div>
+
+            </article> 
+
+        </main>
+
+        <aside class="sidebar">
+            <h3 class="main-title">Courses and workshops</h3>
+
+            <ul class="cursos no-padding">
+
+                <li class="widget-curso">
+                    <h4 class="no-margin">Techniques of coffee extraction</h4>
+                    <p class="widget-curso__label">
+                        Cost: <span class="widget-curso__info">Free</span>
+                    </p>
+                    <p class="widget-curso__label">
+                        Places:<span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="entrada.html" class="boton boton-secundario">More info about our courses</a>
+                </li>
+
+                <li class="widget-curso">
+                    <h4 class="no-margin">4 coffe recipes for beginers</h4>
+                    <p class="widget-curso__label">
+                        Cost: <span class="widget-curso__info">Free</span>
+                    </p>
+                    <p class="widget-curso__label">
+                        Places:<span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="entrada.html" class="boton boton-secundario">More info about our courses</a>
+                </li>
+
+            </ul>
+        </aside>
+
+    </div>
+    <!-- contenido principal fin-->
+
+    <footer class="footer">  
+        <div class="contenedor footer_contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Coffee<span class="logo__bold">Blog</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="about_us.html" class="navegacion__enlace">About us</a>
+                    <a href="courses.html" class="navegacion__enlace">Courses</a>
+                    <a href="" class="navegacion__enlace">Contact</a>
+                </nav>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/modernizer.js"></script>
+</body>
+</html>
